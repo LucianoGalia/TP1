@@ -48,3 +48,12 @@ public class PrimeraClase {
         System.out.println("Atributos: " + this.unaCadena + " y " + this.unEntero);
     }
 }
+
+/*para la parte 2 me pide el cliente que quiere
+Class 
+Cliente = nombre apellido contraseña mail.
+Empleado = nombre apellido contraseña mail.
+Encargado = lo mismo.
+Producto = descripcion, 
+Precio = ... .
+*/
