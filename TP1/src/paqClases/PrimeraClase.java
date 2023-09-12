@@ -39,11 +39,12 @@ public class PrimeraClase {
         lista.add(unObjeto4);
         lista.add(unObjeto5);
         
-        for(PrimeraClase f : lista){
+        for(int i = 0; i < lista.size() ; i++){
+            lista.get(i).mostrar();
         }
     }
     
     public void mostrar(){  
-        System.out.println("Atributos: " + unaCadena + " y " + unEntero);
+        System.out.println("Atributos: " + this.unaCadena + " y " + this.unEntero);
     }
 }
